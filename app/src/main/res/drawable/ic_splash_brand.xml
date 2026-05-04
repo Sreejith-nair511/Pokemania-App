@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Splash screen branding image — "ULTIMATE POKÉDEX" wordmark shown at the
+    bottom of the splash screen on Android 12+.
+    200×40dp, neon blue text rendered as paths.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="40dp"
+    android:viewportWidth="200"
+    android:viewportHeight="40">
+
+    <!-- Decorative left line -->
+    <path
+        android:pathData="M0,20 L18,20"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.5" />
+
+    <!-- Decorative right line -->
+    <path
+        android:pathData="M182,20 L200,20"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.5" />
+
+    <!-- Left dot -->
+    <path
+        android:pathData="M20,20 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
+        android:fillColor="#00D4FF" />
+
+    <!-- Right dot -->
+    <path
+        android:pathData="M180,20 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
+        android:fillColor="#00D4FF" />
+
+    <!-- Top label: "ULTIMATE" — rendered as a simple rectangle placeholder
+         (actual text rendering happens via the system font at runtime via
+          windowSplashScreenBrandingImage; this vector provides the frame) -->
+    <path
+        android:pathData="M26,10 L174,10 L174,18 L26,18 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="0.5"
+        android:strokeAlpha="0.3" />
+
+    <!-- Bottom label frame -->
+    <path
+        android:pathData="M26,22 L174,22 L174,32 L26,32 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="0.5"
+        android:strokeAlpha="0.3" />
+
+    <!-- Neon glow bar under the whole wordmark -->
+    <path
+        android:pathData="M60,35 L140,35"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.4" />
+
+</vector>

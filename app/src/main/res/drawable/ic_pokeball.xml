@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Reusable Pokéball vector — used in-app (toolbar, splash, loading states).
+    24×24dp, neon blue palette to match the app theme.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Outer circle -->
+    <path
+        android:pathData="M12,12 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="1.5" />
+
+    <!-- Top half -->
+    <path
+        android:pathData="M2,12 A10,10 0 0,1 22,12 Z"
+        android:fillColor="#0D1F3C" />
+
+    <!-- Horizontal bar -->
+    <path
+        android:pathData="M2,12 L22,12"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="1.5" />
+
+    <!-- Centre button ring -->
+    <path
+        android:pathData="M12,12 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#050A14"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="1.2" />
+
+    <!-- Centre button fill -->
+    <path
+        android:pathData="M12,12 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#00D4FF" />
+
+</vector>

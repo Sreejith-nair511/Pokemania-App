@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PokeMania.Splash" parent="Theme.PokeMania">
+        <item name="android:windowSplashScreenBackground">#0D0D0D</item>
+    </style>
+</resources>

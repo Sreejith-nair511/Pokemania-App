@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Splash screen centre icon — larger version of the Pokéball for the
+    SplashScreen API windowSplashScreenAnimatedIcon.
+    288×288dp (fills the 960dp splash circle at ~30% scale).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="288"
+    android:viewportHeight="288">
+
+    <!-- Outer glow ring -->
+    <path
+        android:pathData="M144,144 m-110,0 a110,110 0 1,0 220,0 a110,110 0 1,0 -220,0"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="6"
+        android:strokeAlpha="0.4" />
+
+    <!-- Main outer ring -->
+    <path
+        android:pathData="M144,144 m-96,0 a96,96 0 1,0 192,0 a96,96 0 1,0 -192,0"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="5" />
+
+    <!-- Top half fill -->
+    <path
+        android:pathData="M48,144 A96,96 0 0,1 240,144 Z"
+        android:fillColor="#0D1F3C" />
+
+    <!-- Top half gradient overlay -->
+    <path
+        android:pathData="M48,144 A96,96 0 0,1 240,144 Z">
+        <aapt:attr name="android:fillColor"
+            xmlns:aapt="http://schemas.android.com/aapt">
+            <gradient
+                android:type="linear"
+                android:startX="144" android:startY="48"
+                android:endX="144"   android:endY="144">
+                <item android:offset="0.0" android:color="#4400D4FF" />
+                <item android:offset="1.0" android:color="#0000D4FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bottom half fill -->
+    <path
+        android:pathData="M48,144 A96,96 0 0,0 240,144 Z"
+        android:fillColor="#070E1C" />
+
+    <!-- Horizontal divider -->
+    <path
+        android:pathData="M48,144 L240,144"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="5" />
+
+    <!-- Radar arcs in top half -->
+    <path
+        android:pathData="M104,144 A40,40 0 0,1 184,144"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.45" />
+    <path
+        android:pathData="M80,144 A64,64 0 0,1 208,144"
+        android:fillColor="#00000000"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.25" />
+
+    <!-- Centre button outer ring -->
+    <path
+        android:pathData="M144,144 m-22,0 a22,22 0 1,0 44,0 a22,22 0 1,0 -44,0"
+        android:fillColor="#050A14"
+        android:strokeColor="#00D4FF"
+        android:strokeWidth="5" />
+
+    <!-- Centre button fill -->
+    <path
+        android:pathData="M144,144 m-14,0 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0">
+        <aapt:attr name="android:fillColor"
+            xmlns:aapt="http://schemas.android.com/aapt">
+            <gradient
+                android:type="radial"
+                android:centerX="144"
+                android:centerY="144"
+                android:gradientRadius="14">
+                <item android:offset="0.0" android:color="#FF00D4FF" />
+                <item android:offset="0.5" android:color="#880A1628" />
+                <item android:offset="1.0" android:color="#FF050A14" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Specular highlight -->
+    <path
+        android:pathData="M137,137 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#44FFFFFF" />
+
+    <!-- Cardinal dots -->
+    <path android:pathData="M144,48  m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" android:fillColor="#00D4FF" />
+    <path android:pathData="M144,240 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" android:fillColor="#00D4FF" />
+    <path android:pathData="M48,144  m0,-4 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8"  android:fillColor="#BB86FC" />
+    <path android:pathData="M240,144 m0,-4 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8"  android:fillColor="#BB86FC" />
+
+</vector>
